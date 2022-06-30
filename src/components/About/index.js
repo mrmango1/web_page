@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
+  faPython,
   faCss3,
   faGitAlt,
   faHtml5,
@@ -33,28 +33,30 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a passionate self-taught developer. My passion for software lies
+            in the infinite possibilities that stem from it and how a good idea
+            can generate great solutions that make people's lives easier. I take
+            great care in the user experience, architecture, and code quality of
+            the things I build.
           </p>
           <p align="LEFT">
             I'm quietly confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            If I need to define myself in a sentence, I would be a self-taught
+            person who likes to be up to date with new frameworks, programming
+            paradigms and above all obsessed with technology!!!
           </p>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faHtml5} color="#DD0031" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faPython} color="#F06529" />
             </div>
             <div className="face3">
               <FontAwesomeIcon icon={faCss3} color="#28A4D9" />

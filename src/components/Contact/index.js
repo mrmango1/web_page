@@ -21,15 +21,14 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'gmail',
-        'template_YeJhZkgb',
+        'service_0j4b3kp',
+        'template_091pgta',
         form.current,
-        'your-token'
+        'iY7MhTx3n8qiEf2vh'
       )
       .then(
         () => {
           alert('Message successfully sent!')
-          window.location.reload(false)
         },
         () => {
           alert('Failed to send the message, please try again')
@@ -83,26 +82,26 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="SEND" />
+                  <input type="submit" className="flat-button" value="Send" />
                 </li>
               </ul>
             </form>
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Anderson Grefa,
           <br />
-          Serbia,
+          Ecuador,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Av.Rodrigo de Chavez y Galte <br />
+          Villaflora <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>andersongrefa@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[-0.240086, -78.523522]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
+            <Marker position={[-0.240086, -78.523522]}>
               <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
