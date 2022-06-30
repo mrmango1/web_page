@@ -2,33 +2,33 @@
     "portfolio": [
         {
             "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "title": "Minimarket Manager",
+            "description": "Java, Swing, Mysql, MVC, DAO",
+            "url": "https://github.com/mrmango1/MiniMarket"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/3/chatApp.png",
+            "title": "Chat App",
+            "description": "Django, Python, Html, Css",
+            "url": "https://github.com/mrmango1/django_chat"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/2/notesApp.png",
+            "title": "Notes App",
+            "description": "Django, Python, Html, Css, Sqlite",
+            "url": "https://github.com/mrmango1/django-to_do_list"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/4/pwdGen.png",
+            "title": "Password Generator",
+            "description": "Css, Html, Django, Python",
+            "url": "https://github.com/mrmango1/django_password_generator"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/5/todoApp.png",
+            "title": "To-do App",
+            "description":  "Css, Html, Django, Python, Sqlite",
+            "url": "https://github.com/mrmango1/django-to_do_list"
         }
     ]
 }
