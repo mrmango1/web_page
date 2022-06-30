@@ -1,8 +1,8 @@
 {
   "name": "react-portfolio-website",
   "version": "0.1.0",
-  "homepage": "https://portfolio.andersongrefa.tech",
   "private": true,
+  "homepage": "https://portfolio.andersongrefa.tech",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
